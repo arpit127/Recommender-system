@@ -29,7 +29,7 @@ for feature in features:
 
 def combine_features(row):
 	try:
-		return row['keywords'] +" "+row['cast']+" "+row["genres"]+" "+row["director"]+" "+row["original_language"]#+" "+row["director"]
+		return row['keywords'] +" "+row['cast']+" "+row["genres"]+" "+row["director"]
 	except:
 		print("Error:", row)
 
